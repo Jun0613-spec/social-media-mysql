@@ -20,7 +20,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "http://https://social-media-front-xi74.onrender.com",
+      "https://social-media-front-xi74.onrender.com",
     ],
   })
 );
