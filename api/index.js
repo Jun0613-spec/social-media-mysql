@@ -18,7 +18,10 @@ app.use((req, res, next) => {
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: [
+      "http://localhost:3000",
+      "http://https://social-media-front-xi74.onrender.com",
+    ],
   })
 );
 app.use(cookieParser());
